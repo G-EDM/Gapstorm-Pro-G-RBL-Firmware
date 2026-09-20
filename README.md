@@ -26,3 +26,33 @@ There has been a lot of tinkering recently, and the time available to work on th
 Despite the license notes added to all files, I hereby publish the full code as fully open source. Have fun.
 
 
+# Credits to whom credits belong
+
+    Thanks for the support and help to keep the project going.
+
+    @ Tanatara
+    @ 8kate
+    @ Ethan Hall
+    @ Esteban Algar
+    @ 666
+    @ td1640
+    @ Nikolay
+    @ MaIzOr
+    @ DANIEL COLOMBIA
+    @ charlatanshost
+    @ tommygun
+    @ renyklever
+    @ Zenitheus
+    @ gerritv
+    @ cnc
+    @ Shrawan Khatri
+    @ Alex Treseder
+    @ VB
+    @ AndrewS
+    @ TK421
+    @ sarnold04
+    @ Ryan
+    @ Dale
+
+</br>   
+</br>
