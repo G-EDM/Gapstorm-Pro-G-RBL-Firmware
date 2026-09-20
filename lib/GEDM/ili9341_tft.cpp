@@ -181,13 +181,14 @@ IRAM_ATTR bool position_changed( int64_t &current_micros ){ // todo: build a fla
 
 }
 
+
 void show_credits(){ // create the credits for the boot screen
     if( ! is_machine_state( STATE_REBOOT ) ){
         // Show credits
         const char* credits[] = {
-            ""," --- Credits to the community ---","",
+            ""," --- Credits ---","",
             "@Tanatara", "@8kate", "@Ethan Hall", "@Esteban Algar", "@666", "@td1640", "@MaIzOr", "@gunni", "@DANIEL COLOMBIA", 
-            "@charlatanshost", "@tommygun", "@Nikolay", "@renyklever", "Arne S.", "@Zenitheus", "@gerritv", "@cnc", "@TK421", "@AndrewS", "@sarnold04",
+            "@charlatanshost", "@tommygun", "@Nikolay", "@renyklever", "Arne S.", "@Dale", "@Ryan", "@Zenitheus", "@gerritv", "@cnc", "@TK421", "@AndrewS", "@sarnold04",
             "@Shrawan Khatri", "@Alex Treseder", "@VB","","","", " --- Welcome ---", "" , "", BRAND_NAME, RELEASE_NAME, FIRMWARE_VERSION // brand
         };
         size_t array_size = sizeof(credits) / sizeof(credits[0]);
@@ -197,6 +198,7 @@ void show_credits(){ // create the credits for the boot screen
         vTaskDelay(1000);
     }
 }
+
 
 
 //#########################################################
