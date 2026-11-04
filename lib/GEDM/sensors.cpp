@@ -1350,7 +1350,7 @@ bool G_SENSORS::refresh_settings(){
         deep_wave.feed_lock_unlock_count  = 0;
         deep_wave.has_first_burn          = false;
         deep_wave.vfd_pre_short           = 0;
-        deep_wave.vfd_average_setpoint    = vfd_short_circuit_threshhold;
+        //deep_wave.vfd_average_setpoint    = vfd_short_circuit_threshhold;
 
 
         scope_use_high_res           = settings.get_setting_bool( PARAM_ID_USE_HIGH_RES_SCOPE );
